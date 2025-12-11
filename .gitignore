@@ -1,0 +1,9 @@
+/venv/
+*.yaml
+/__pycache__/
+/.vscode/
+test*.py
+*.bin
+*.jpg
+*.bmp
+start-postgres.ps1
