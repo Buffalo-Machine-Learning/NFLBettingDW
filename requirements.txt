@@ -3,3 +3,4 @@ PyYAML
 python-dotenv
 pandas
 requests
+nfl-data-py
