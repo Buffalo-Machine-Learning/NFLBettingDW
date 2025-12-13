@@ -7,3 +7,4 @@ test*.py
 *.jpg
 *.bmp
 start-postgres.ps1
+*.json
