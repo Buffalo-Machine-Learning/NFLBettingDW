@@ -4,4 +4,5 @@ Source: nfl-data-py from nflfastr
 
 Source conceptual model without additional fields:
 
-- [NFL ERD](DataModeling/Source_ConceptualModel.md)
+- [NFL Source ERD](DataModeling/Source_ConceptualModel.md)
+- [Postgres Conceptual Data Model](DataModeling/Dest_ConceptualModel.md)
