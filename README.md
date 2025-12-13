@@ -1,6 +1,7 @@
-# Postgres_DW_Setup
+# NFLBettingDW
 
-Infrastructure as code for creation
-template for etl, database/schema/table structuring, logging
+Source: nfl-data-py from nflfastr
 
-will use northwind as example data
+Source conceptual model without additional fields:
+
+- [NFL ERD](DataModeling/Source_ConceptualModel.md)
