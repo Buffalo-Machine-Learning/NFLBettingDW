@@ -1,7 +1,8 @@
+pandas>=2.2
 psycopg2-binary
 PyYAML
 python-dotenv
-pandas
 requests
-nfl-data-py
+nflreadpy
 ipykernel
+polars

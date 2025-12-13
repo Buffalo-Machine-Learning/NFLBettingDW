@@ -1,16 +1,17 @@
 [project]
 name = "nflbettingdw"
 version = "0.1.0"
-description = "About
-Public repo to further explore and improve DW template with extensive data for ETL. Also a repo to use to explore possible applications for machine learning in NFL betting space."
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel",
-    "nfl-data-py",
-    "pandas",
-    "psycopg2-binary",
-    "python-dotenv",
-    "pyyaml",
-    "requests",
+    "ipykernel>=7.1.0",
+    "nfl-data-py>=0.3.2",
+    "nflreadpy>=0.1.5",
+    "pandas>=2.2",
+    "polars>=1.36.1",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "requests>=2.32.5",
 ]
