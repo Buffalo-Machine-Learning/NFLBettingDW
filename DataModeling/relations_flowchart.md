@@ -56,6 +56,14 @@ flowchart LR
   GP_FR["GAME_PLAYER.franchise_uid (BIGINT)"] --> FR_PK
   GP_STATUS["GAME_PLAYER.player_status_uid (BIGINT)"] --> STATUS_PK
 
+  %% ===============================
+  %% odds Schema
+  %% ===============================
+  odds.game_props["odds.game_props.game_id"] --> GAME_ID_PK
+
+  odds.player_props.game_id["odds.player_props.game_id"] --> GAME_ID_PK
+
+  odds.player_props["odds.player_props.player_id"] --> PLAYER_PK
 
   %% ===============================
   %% Participation lists (BIGINT[])
@@ -63,3 +71,4 @@ flowchart LR
 
   OFF_LIST["PBP_PARTICIPATION.offense_players_uid_list (BIGINT[])"] --> PLAYER_PK
   DEF_LIST["PBP_PARTICIPATION.defense_players_uid_list (BIGINT[])"] --> PLAYER_PK
+  

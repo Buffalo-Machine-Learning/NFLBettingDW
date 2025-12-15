@@ -1,4 +1,4 @@
-## NFL Data Model (Keys-Only ERD)
+## NFL Data Model
 
 [← Back to README](../README.md)
 
