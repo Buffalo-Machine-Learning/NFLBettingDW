@@ -9,6 +9,8 @@ erDiagram
     datetime created_date
     datetime modified_date
     string franchise_name
+    string team_conference
+    string team_division
   }
 
   DIM_TEAM {
@@ -19,6 +21,7 @@ erDiagram
     string team_abbr
     string team_name
     string city
+    string nickname
   }
 
   DIM_PLAYERS {
