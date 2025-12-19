@@ -1,14 +1,3 @@
--- DIM_TEAM {
---     bigint team_uid PK
---     bigint franchise_uid FK
---     datetime created_date
---     datetime modified_date
---     string team_abbr
---     string team_name
---     string city
---     string nickname
---   }
-
 -- Table: nfl.teams
 CREATE TABLE IF NOT EXISTS nfl.teams (
     team_uid SERIAL PRIMARY KEY,
